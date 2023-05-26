@@ -1,0 +1,1919 @@
+[
+  {
+    "id": "ff37040184e2901cb53e63132cd3f779",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-26T09:50:00Z",
+    "home_team": "Sydney Swans",
+    "away_team": "Carlton Blues",
+    "bookmakers": [
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.75
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.08
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.72
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.8
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.77
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.72
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.9
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.91
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:09Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.77
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.77
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.06
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Carlton Blues",
+                "price": 1.8
+              },
+              {
+                "name": "Sydney Swans",
+                "price": 2.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52fef6883107f73fecce5e429c85dfb4",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-27T03:45:00Z",
+    "home_team": "St Kilda Saints",
+    "away_team": "Hawthorn Hawks",
+    "bookmakers": [
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.15
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.22
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.1
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 3.9
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.26
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.0
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.1
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.5
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.6
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:09Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 3.95
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.0
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Hawthorn Hawks",
+                "price": 4.3
+              },
+              {
+                "name": "St Kilda Saints",
+                "price": 1.22
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fe469f0ae22e04efe482a23af5c6f549",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-27T04:10:00Z",
+    "home_team": "Melbourne Demons",
+    "away_team": "Fremantle Dockers",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.15
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 2.95
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:09Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.2
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.2
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.2
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 2.95
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.3
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.42
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.4
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.43
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.0
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Fremantle Dockers",
+                "price": 3.15
+              },
+              {
+                "name": "Melbourne Demons",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5b19f856dba33997b12e9d854b7be1b1",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-27T06:35:00Z",
+    "home_team": "Geelong Cats",
+    "away_team": "Greater Western Sydney Giants",
+    "bookmakers": [
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.11
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 6.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.1
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.1
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.1
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.1
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.11
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 9.2
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.13
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 10.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:10Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.1
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.11
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 6.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Geelong Cats",
+                "price": 1.08
+              },
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": 8.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "573e0704c24928ed9741e5ca8dee5a0d",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-27T09:25:00Z",
+    "home_team": "Gold Coast Suns",
+    "away_team": "Western Bulldogs",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.6
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.8
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.55
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.82
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.6
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.5
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.53
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:10Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.5
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.53
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.5
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.53
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.5
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.53
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.54
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Gold Coast Suns",
+                "price": 2.6
+              },
+              {
+                "name": "Western Bulldogs",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3a15a70e6af4f9d56fc5e8d21a90787c",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-27T09:30:00Z",
+    "home_team": "West Coast Eagles",
+    "away_team": "Essendon Bombers",
+    "bookmakers": [
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.07
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 8.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.09
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 7.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.08
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 8.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.08
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 8.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:10Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.09
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 7.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.09
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 7.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.11
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 9.4
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.12
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 9.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.08
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 8.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Essendon Bombers",
+                "price": 1.08
+              },
+              {
+                "name": "West Coast Eagles",
+                "price": 8.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "28c2b814ca72327061bf474c61fec359",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-28T03:10:00Z",
+    "home_team": "Richmond Tigers",
+    "away_team": "Port Adelaide Power",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.77
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.8
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.77
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:10Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.73
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.77
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.8
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.87
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.9
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.71
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Port Adelaide Power",
+                "price": 1.77
+              },
+              {
+                "name": "Richmond Tigers",
+                "price": 2.05
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d94828a75e43285e01106da93d0e5524",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-28T05:20:00Z",
+    "home_team": "Collingwood Magpies",
+    "away_team": "North Melbourne Kangaroos",
+    "bookmakers": [
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.04
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 11.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.04
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 11.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.05
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 10.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.03
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 13.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.04
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 11.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.07
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 13.5
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.08
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 14.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:10Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.04
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 11.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.04
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 10.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Collingwood Magpies",
+                "price": 1.04
+              },
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": 11.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e55d4ebc711c3e1fab2d2d4b615861e7",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2023-05-28T06:40:00Z",
+    "home_team": "Adelaide Crows",
+    "away_team": "Brisbane Lions",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2023-05-26T01:46:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:46:03Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.1
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-05-26T01:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.14
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.85
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-05-26T01:44:56Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.18
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.88
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes",
+        "title": "Ladbrokes",
+        "last_update": "2023-05-26T01:43:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:31Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.1
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2023-05-26T01:45:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:45:42Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.15
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.72
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bluebet",
+        "title": "BlueBet",
+        "last_update": "2023-05-26T01:41:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:10Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.1
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetau",
+        "title": "PointsBet (AU)",
+        "last_update": "2023-05-26T01:41:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:41:12Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.1
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2023-05-26T01:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:31Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.1
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2023-05-26T01:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:43:12Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.12
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betr_au",
+        "title": "Betr",
+        "last_update": "2023-05-26T01:44:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-05-26T01:44:07Z",
+            "outcomes": [
+              {
+                "name": "Adelaide Crows",
+                "price": 2.06
+              },
+              {
+                "name": "Brisbane Lions",
+                "price": 1.76
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

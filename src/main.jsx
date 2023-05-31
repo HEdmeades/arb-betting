@@ -15,6 +15,10 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
+    path: "/arb-betting",
+    element: <Home />,
+  },
+  {
     path: "/calculator",
     element: <Calculator />,
   },

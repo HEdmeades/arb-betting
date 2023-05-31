@@ -27,9 +27,9 @@ function Home() {
       <Button variant="text" onClick={() => setShowOnlyProfitable((prevState) => !prevState)}>{showOnlyProfitable ? 'Hide' : 'Show'} only profitable</Button>
       <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
 
-        {sports.map((sport) => {
+        {sports.map((sport, index) => {
           return (
-            <SportCard sportId={sport.key} betAmount={betAmount} showOnlyProfitable={showOnlyProfitable}/>
+            <SportCard waitTime={index / 10} sportId={sport.key} betAmount={betAmount} showOnlyProfitable={showOnlyProfitable}/>
           )
         })}
 

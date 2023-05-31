@@ -7,6 +7,11 @@ export const toPercentString = (val) => round(val * 100, 2) + "%";
 
 export const getHeadToHeadMatchData = (matches, betAmount, showOnlyProfitable) => {
   let arbedData = [];
+
+  if(matches?.length === 0 || !matches){
+    return arbedData;
+  }
+
   for (const match of matches) {
     const homeTeam = match.home_team;
     const awayTeam = match.away_team;

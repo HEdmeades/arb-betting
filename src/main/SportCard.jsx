@@ -8,35 +8,51 @@ import data from "../data.json";
 import {useState} from "react";
 import BetTable from "./BetTable.jsx";
 import Card from '@mui/material/Card';
-import {CardActions, CardContent, Typography} from "@mui/material";
+import {Button, CardActions, CardContent, Typography} from "@mui/material";
 import {Link} from "react-router-dom";
 
-const SportCard = ({sportId, betAmount, showOnlyProfitable}) => {
+const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
 
   const [data, setData] = useLocalStorage(sportId + moment().format('L'), null);
   const [matchedData, setMatchedData] = useState([]);
 
-  useEffect(() => {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  const delay = (time) => {
+    console.log('sportId', sportId, 'waitTime', time)
+    return new Promise(resolve => setTimeout(resolve, time));
+  }
+
+  const fetchSportsOddData = () => {
     // declare the data fetching function
     const fetchData = async () => {
+      setLoading(true);
       const res = await getSportOdds(sportId);
-      console.log('bruh bruh', res)
-      if (res) {
+
+      if (res?.status === 200) {
         setData(res.data);
+        setError(null);
       }
     }
 
     if (!data) {
       // call the function
-      fetchData()
-        // make sure to catch any error
-        .catch(console.error);
+      delay(waitTime * 1000).then(() => {
+        fetchData()
+          // make sure to catch any error
+          .catch((err) => {
+            console.error(err);
+            setError(err);
+            setLoading(false)
+          });
+      })
     }
+  }
 
+  useEffect(() => {
+    fetchSportsOddData();
   }, [])
-
-  console.log(data);
-  console.log('matchedData', matchedData);
 
   useEffect(() => {
     setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable))
@@ -45,6 +61,13 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable}) => {
   useEffect(() => {
     setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable))
   }, []);
+
+
+  useEffect(() => {
+    if(data){
+      setLoading(false)
+    }
+  }, [data]);
 
   const getNumberOfOppurtunities = () => {
     let opps = 0;
@@ -71,6 +94,8 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable}) => {
 
     return top5;
   }
+
+  console.log(error)
 
   if (!showOnlyProfitable || matchedData.length > 0) {
     return (
@@ -109,7 +134,29 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable}) => {
             </CardActions>
           </CardContent>
         </Card>
+      </div>
+    )
+  }
+  if(loading){
+    return <p>Loading :) ...</p>
+  }
+  if(error){
+    return (
+      <div style={{flex: 1}}>
+        <Card sx={{minWidth: 275, backgroundColor: matchedData.length > 0 ? '#d5e8cd' : '#ffb7b7'}}>
+          <CardContent>
+            <Typography sx={{fontSize: 14}} color="text.secondary" gutterBottom>
+              {sportId} - ERROR :(
+            </Typography>
+              <Typography component="body2">
+                {error.response.data.message}
+              </Typography>
 
+            <CardActions>
+              <Button variant="text" onClick={fetchSportsOddData}>Refresh</Button>
+            </CardActions>
+          </CardContent>
+        </Card>
       </div>
     )
   }

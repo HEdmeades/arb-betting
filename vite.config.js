@@ -10,5 +10,5 @@ export default defineConfig({
   server: {
     port: 5001,
   },
-  base: '/arb-betting'
+  base: '/arb-betting/'
 });

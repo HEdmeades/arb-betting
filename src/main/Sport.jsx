@@ -89,6 +89,7 @@ const Sport = ({}) => {
                 <div>
                   <h4>{match.sport}</h4>
                   <p>{match.matchTitle}</p>
+                  <p>{moment(match.startTime).tz('Australia/Sydney').format('MMMM Do YYYY, h:mm:ss a')}</p>
                 </div>
 
                 <div>
@@ -110,7 +111,7 @@ const Sport = ({}) => {
                             <bold>Bets</bold>
                           </p>
                           <BetTable rows={opportunity.bets}/>
-                          <CalculatorModal opp={opportunity}/>
+                          <CalculatorModal opp={opportunity} matchStartTime={match.startTime}/>
                         </div>
                       </Card>
                     )

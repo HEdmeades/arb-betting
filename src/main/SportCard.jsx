@@ -85,6 +85,16 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable}) => {
                 {matchedData[0].sport}
               </Typography>
             }
+            {matchedData.length > 0 &&
+              <Typography variant="body2">
+              Earliest match start time: <p><bold>{moment(matchedData.sort((match1, match2) => {
+                if(moment(match1.startTime).isBefore(match2.startTime)){
+                  return 1;
+                }
+                return -1
+              }).reverse()[0].startTime).tz('Australia/Sydney').format('MMMM Do YYYY, h:mm:ss a')}</bold></p>
+            </Typography>
+            }
             <Typography variant="body2">
               Matches: {matchedData.length}
             </Typography>

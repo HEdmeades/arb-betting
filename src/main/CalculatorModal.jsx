@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import BetTable from "./BetTable.jsx";
 import {calculateOpportunity} from "./functions.js";
 import useLocalStorage from "../hooks/useLocalStorage.js";
+import moment from "moment-timezone";
 
 const style = {
   position: 'absolute',
@@ -18,7 +19,7 @@ const style = {
   p: 4,
 };
 
-const CalculatorModal = ({opp}) => {
+const CalculatorModal = ({opp, matchStartTime}) => {
 
   const [open, setOpen] = useState(false);
 
@@ -32,7 +33,7 @@ const CalculatorModal = ({opp}) => {
   const [secondBetOdds, setSecondBetOdds] = useState(opp.bets[1].odds);
 
   useEffect(() => {
-    if(!isNaN(firstBetOdds) && !isNaN(secondBetOdds)){
+    if(!isNaN(firstBetOdds) && !isNaN(secondBetOdds) && !isNaN(betAmount)){
 
       const newOpp = calculateOpportunity(
         firstBetOdds,
@@ -50,7 +51,7 @@ const CalculatorModal = ({opp}) => {
       }
 
     }
-  }, [firstBetOdds, secondBetOdds]);
+  }, [firstBetOdds, secondBetOdds, betAmount]);
 
   return (
     <>
@@ -68,7 +69,20 @@ const CalculatorModal = ({opp}) => {
           <h1>Calculator</h1>
 
           <div>
+            <TextField
+              required
+              id={'betamount'}
+              label={`Bet amount:`}
+              defaultValue={betAmount}
+              onChange={(event) => {
+                setBetAmount(event.target.value)
+              }}
+            />
+          </div>
+
+          <div>
             <p>{opportunity.title}</p>
+            <p>{moment(matchStartTime).tz('Australia/Sydney').format('MMMM Do YYYY, h:mm:ss a')}</p>
             <p>{opportunity.percent}</p>
             <p>{opportunity.profit}</p>
           </div>

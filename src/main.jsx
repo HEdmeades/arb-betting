@@ -5,14 +5,15 @@ import './index.css'
 import Home from "./main/Home.jsx";
 import Calculator from "./main/Calculator.jsx";
 import Sport from "./main/Sport.jsx";
+import LandingPage from "./main/LandingPage.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter >
       <Switch>
-        <Route component={Home} exact path="/" />
+        <Route component={LandingPage} exact path="/" />
 
-        <Route component={Home} exact path="/arb-betting" />
+        <Route component={Home} exact path="/home" />
 
         <Route component={Calculator} exact path="/calculator" />
 

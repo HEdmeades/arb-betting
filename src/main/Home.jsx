@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {Button} from "@mui/material";
+import {Button, TextField} from "@mui/material";
 import sports from "../static/sports.json";
 import SportCard from "./SportCard.jsx";
 import Header from "./Header.jsx";
@@ -13,6 +13,17 @@ function Home() {
   return (
     <>
       <Header />
+      <div>
+        <TextField
+          required
+          id={'betamount'}
+          label={`Bet amount:`}
+          defaultValue={betAmount}
+          onChange={(event) => {
+            setBetAmount(event.target.value)
+          }}
+        />
+      </div>
       <Button variant="text" onClick={() => setShowOnlyProfitable((prevState) => !prevState)}>{showOnlyProfitable ? 'Hide' : 'Show'} only profitable</Button>
       <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
 

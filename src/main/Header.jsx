@@ -1,5 +1,3 @@
-import {useState} from "react";
-import {Button} from "@mui/material";
 import {Link} from "react-router-dom";
 
 function Header() {
@@ -9,6 +7,7 @@ function Header() {
       <h2>Shotgun Bros Pty Ltd</h2>
       <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
         <Link to="/">Home</Link>
+        <Link to="/dashboard">Dashboard</Link>
         <Link to="/calculator">Calculator</Link>
       </div>
     </div>

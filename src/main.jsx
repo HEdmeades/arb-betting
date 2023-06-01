@@ -7,6 +7,7 @@ import Calculator from "./main/Calculator.jsx";
 import Sport from "./main/Sport.jsx";
 import LandingPage from "./main/LandingPage.jsx";
 import {createTheme, ThemeProvider} from "@mui/material";
+import './App.css';
 
 const lightTheme = createTheme({
   palette: {
@@ -17,17 +18,17 @@ const lightTheme = createTheme({
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={lightTheme}>
-    <BrowserRouter >
-      <Switch>
-        <Route component={LandingPage} exact path="/" />
+      <BrowserRouter>
+        <Switch>
+          <Route component={LandingPage} exact path="/"/>
 
-        <Route component={Dashboard} exact path="/dashboard" />
+          <Route component={Dashboard} exact path="/dashboard"/>
 
-        <Route component={Calculator} exact path="/calculator" />
+          <Route component={Calculator} exact path="/calculator"/>
 
-        <Route component={Sport} exact path="/sport/:sportId" />
-      </Switch>
-    </BrowserRouter>
+          <Route component={Sport} exact path="/sport/:sportId"/>
+        </Switch>
+      </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>,
 )

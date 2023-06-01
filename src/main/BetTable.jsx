@@ -14,6 +14,9 @@ const BetTable = ({rows}) => {
           <th>Win</th>
           <th>Return</th>
           <th>Profit</th>
+          <th>Draw</th>
+          <th>Draw return</th>
+          <th>Draw profit</th>
         </tr>
         </thead>
         <tbody>
@@ -27,6 +30,9 @@ const BetTable = ({rows}) => {
               <td>{row.win}</td>
               <td>{row.return}</td>
               <td>{row.profit}</td>
+              <td>{row.drawHR}</td>
+              <td>{row.drawReturnHR}</td>
+              <td>{row.profitDrawHR}</td>
             </tr>
           )
         })}

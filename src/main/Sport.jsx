@@ -107,7 +107,7 @@ const Sport = ({}) => {
 
                   {match.opportunities.map((opportunity) => {
                     return (
-                      <Card sx={{minWidth: 275, margin: '16px'}}>
+                      <Card sx={{minWidth: '600px', marginTop: '16px', padding: '8px'}}>
                         <div>
                           <p>
                             <bold>{opportunity.title}</bold>

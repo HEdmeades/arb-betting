@@ -117,6 +117,16 @@ export const calculateOpportunity = (firstHomeTeamOdds, secondAwayTeamOdds, betA
   const returnAwayTeam1 = winAwayTeam1 - stakeAwayTeam;
   const profitAwayTeam1 = returnAwayTeam1 - stakeHomeTeam;
 
+  //DRAW HALF RETURN HOME
+  const drawHRHomeTeam1 = winHomeTeam1 / 2;
+  const returnHRHomeTeam1 = drawHRHomeTeam1 - stakeHomeTeam;
+  const profitDrawHRHomeTeam1 = returnHRHomeTeam1 - stakeAwayTeam;
+
+  //DRAW HALF RETURN AWAY
+  const drawHRAwayTeam1 = winAwayTeam1 / 2;
+  const returnHRAwayTeam1 = drawHRAwayTeam1 - stakeAwayTeam;
+  const profitDrawHRAwayTeam1 = returnHRAwayTeam1 - stakeHomeTeam;
+
   if ((showOnlyProfitable && percent1 < 1) || !showOnlyProfitable) {
     return {
       title: firstBookMakerTitle + " vs " + secondBookMakerTitle,
@@ -131,6 +141,9 @@ export const calculateOpportunity = (firstHomeTeamOdds, secondAwayTeamOdds, betA
         win: toMoneyString(winHomeTeam1),
         return: toMoneyString(returnHomeTeam1),
         profit: toMoneyString(profitHomeTeam1),
+        drawHR: toMoneyString(drawHRHomeTeam1),
+        drawReturnHR: toMoneyString(returnHRHomeTeam1),
+        profitDrawHR: toMoneyString(profitDrawHRHomeTeam1),
         betCompany: firstBookMakerTitle
       },
         {
@@ -141,6 +154,9 @@ export const calculateOpportunity = (firstHomeTeamOdds, secondAwayTeamOdds, betA
           win: toMoneyString(winAwayTeam1),
           return: toMoneyString(returnAwayTeam1),
           profit: toMoneyString(profitAwayTeam1),
+          drawHR:toMoneyString( drawHRAwayTeam1),
+          drawReturnHR: toMoneyString(returnHRAwayTeam1),
+          profitDrawHR: toMoneyString(profitDrawHRAwayTeam1),
           betCompany: secondBookMakerTitle
         }
       ]

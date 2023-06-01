@@ -5,7 +5,7 @@ import moment from "moment";
 export const toMoneyString = (val) => "$" + round(val, 2);
 export const toPercentString = (val) => round(val * 100, 2) + "%";
 
-export const getHeadToHeadMatchData = (matches, betAmount, showOnlyProfitable) => {
+export const getHeadToHeadMatchData = (matches, betAmount, showOnlyProfitable, allowedBookmakers) => {
   let arbedData = [];
 
   if(matches?.length === 0 || !matches){
@@ -25,6 +25,10 @@ export const getHeadToHeadMatchData = (matches, betAmount, showOnlyProfitable) =
     }
 
     for (const firstBookMaker of match.bookmakers) {
+      if(!allowedBookmakers.includes(firstBookMaker.key)){
+        continue;
+      }
+
       let firstHomeTeamOdds;
       let firstAwayTeamOdds;
 
@@ -42,6 +46,10 @@ export const getHeadToHeadMatchData = (matches, betAmount, showOnlyProfitable) =
 
       if (firstHomeTeamOdds && firstAwayTeamOdds) {
         for (const secondBookMaker of match.bookmakers) {
+          if(!allowedBookmakers.includes(secondBookMaker.key)){
+            continue;
+          }
+
           if (firstBookMaker.key !== secondBookMaker.key) {
             let secondHomeTeamOdds;
             let secondAwayTeamOdds;

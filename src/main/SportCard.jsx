@@ -11,11 +11,13 @@ import Card from '@mui/material/Card';
 import {Button, CardActions, CardContent, Typography} from "@mui/material";
 import {Link} from "react-router-dom";
 import apiKeysStatic from "../static/apiKeysStatic.json"
+import useDeepCompareEffect from "../hooks/useDeepCompareEffect.js";
 
 const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
 
   const [data, setData] = useLocalStorage(sportId + moment().format('L'), null);
   const [apiKeyIndex] = useLocalStorage('API-KEY-INDEX', 0);
+  const [activeBookmakers] = useLocalStorage('ACTIVE-BOOKMAKERS', []);
   const [matchedData, setMatchedData] = useState([]);
 
   const [loading, setLoading] = useState(false);
@@ -55,14 +57,14 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
     fetchSportsOddData();
   }, [])
 
-  useEffect(() => {
-    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable))
-  }, [betAmount, showOnlyProfitable]);
+  useDeepCompareEffect(() => {
+    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable, activeBookmakers))
+  }, [betAmount, showOnlyProfitable, activeBookmakers]);
+  console.log(activeBookmakers)
 
   useEffect(() => {
-    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable))
+    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable, activeBookmakers))
   }, []);
-
 
   useEffect(() => {
     if(data){
@@ -75,7 +77,6 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
         })
       })
 
-      console.log('bookMakers', bookMakers)
       setLoading(false)
     }
   }, [data]);

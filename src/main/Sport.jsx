@@ -6,7 +6,7 @@ import {getSportOdds} from "../resource/api.js";
 import {getHeadToHeadMatchData} from "./functions.js";
 import BetTable from "./BetTable.jsx";
 import Card from '@mui/material/Card';
-import {CardActions, CardContent, Typography} from "@mui/material";
+import {CardActions, CardContent, TextField, Typography} from "@mui/material";
 import {Link, useParams} from "react-router-dom";
 import Header from "./Header.jsx";
 import CalculatorModal from "./CalculatorModal.jsx";
@@ -16,10 +16,12 @@ const Sport = ({}) => {
   let {sportId} = useParams();
 
   const [betAmount, setBetAmount] = useLocalStorage('betAmount', 200);
-  const [showOnlyProfitable, setShowOnlyProfitable] = useLocalStorage('showOnlyProfitable', true);
+  const [showOnlyProfitable] = useLocalStorage('showOnlyProfitable', true);
 
   const [data, setData] = useLocalStorage(sportId + moment().format('L'), null);
   const [matchedData, setMatchedData] = useState([]);
+  const [activeBookmakers] = useLocalStorage('ACTIVE-BOOKMAKERS', []);
+
 
   useEffect(() => {
     // declare the data fetching function
@@ -40,11 +42,12 @@ const Sport = ({}) => {
   }, [])
 
   useEffect(() => {
-    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable))
-  }, [betAmount, showOnlyProfitable]);
+    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable, activeBookmakers))
+  }, [betAmount, showOnlyProfitable, activeBookmakers]);
+
 
   useEffect(() => {
-    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable))
+    setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable, activeBookmakers))
   }, []);
 
   const getNumberOfOppurtunities = () => {
@@ -77,6 +80,17 @@ const Sport = ({}) => {
     return (
       <>
         <Header />
+        <div>
+          <TextField
+            required
+            id={'betamount'}
+            label={`Bet amount:`}
+            defaultValue={betAmount}
+            onChange={(event) => {
+              setBetAmount(event.target.value)
+            }}
+          />
+        </div>
         <div style={{display: "flex", gap: "16px", flexWrap: "wrap"}}>
 
           {matchedData.map((match) => {

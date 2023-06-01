@@ -24,7 +24,7 @@ function Home() {
           }}
         />
       </div>
-      <Button variant="text" onClick={() => setShowOnlyProfitable((prevState) => !prevState)}>{showOnlyProfitable ? 'Hide' : 'Show'} only profitable</Button>
+      <Button variant="text" onClick={() => setShowOnlyProfitable((prevState) => !prevState)}>{showOnlyProfitable ? 'Show all' : 'Show only profitable'}</Button>
       <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
 
         {sports.map((sport, index) => {

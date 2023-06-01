@@ -66,6 +66,16 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
 
   useEffect(() => {
     if(data){
+      const bookMakers = [];
+      data.map((d) => {
+        d.bookmakers.map((b) => {
+          if(!bookMakers.includes(b.key)){
+            bookMakers.push(b.key);
+          }
+        })
+      })
+
+      console.log('bookMakers', bookMakers)
       setLoading(false)
     }
   }, [data]);

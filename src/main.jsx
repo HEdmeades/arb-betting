@@ -6,9 +6,17 @@ import Dashboard from "./main/Home.jsx";
 import Calculator from "./main/Calculator.jsx";
 import Sport from "./main/Sport.jsx";
 import LandingPage from "./main/LandingPage.jsx";
+import {createTheme, ThemeProvider} from "@mui/material";
+
+const lightTheme = createTheme({
+  palette: {
+    mode: 'light',
+  },
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <ThemeProvider theme={lightTheme}>
     <BrowserRouter >
       <Switch>
         <Route component={LandingPage} exact path="/" />
@@ -20,5 +28,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route component={Sport} exact path="/sport/:sportId" />
       </Switch>
     </BrowserRouter>
+    </ThemeProvider>
   </React.StrictMode>,
 )

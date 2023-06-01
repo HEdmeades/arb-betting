@@ -25,7 +25,6 @@ const Sport = ({}) => {
     // declare the data fetching function
     const fetchData = async () => {
       const res = await getSportOdds(sportId);
-      console.log('bruh bruh', res)
       if (res) {
         setData(res.data);
       }
@@ -39,9 +38,6 @@ const Sport = ({}) => {
     }
 
   }, [])
-
-  console.log(data);
-  console.log('matchedData', matchedData);
 
   useEffect(() => {
     setMatchedData(getHeadToHeadMatchData(data, betAmount, showOnlyProfitable))

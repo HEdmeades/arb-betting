@@ -97,7 +97,6 @@ const CalculatorModal = ({opp, matchStartTime}) => {
                   defaultValue={firstBetOdds}
                   onChange={(event) => {
                     setFirstBetOdds(event.target.value)
-                    console.log('bet.key', event.target.value);
                   }}
                 />
               </div>
@@ -112,7 +111,6 @@ const CalculatorModal = ({opp, matchStartTime}) => {
                   defaultValue={secondBetOdds}
                   onChange={(event) => {
                     setSecondBetOdds(event.target.value)
-                    console.log('bet.key', event.target.value);
                   }}
                 />
               </div>

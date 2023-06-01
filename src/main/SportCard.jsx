@@ -96,8 +96,6 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
     return top5;
   }
 
-  console.log(error)
-
   if (!showOnlyProfitable || matchedData.length > 0) {
     return (
       <div style={{flex: 1}}>

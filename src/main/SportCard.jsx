@@ -10,17 +10,18 @@ import BetTable from "./BetTable.jsx";
 import Card from '@mui/material/Card';
 import {Button, CardActions, CardContent, Typography} from "@mui/material";
 import {Link} from "react-router-dom";
+import apiKeysStatic from "../static/apiKeysStatic.json"
 
 const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
 
   const [data, setData] = useLocalStorage(sportId + moment().format('L'), null);
+  const [apiKeyIndex] = useLocalStorage('API-KEY-INDEX', 0);
   const [matchedData, setMatchedData] = useState([]);
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const delay = (time) => {
-    console.log('sportId', sportId, 'waitTime', time)
     return new Promise(resolve => setTimeout(resolve, time));
   }
 
@@ -28,7 +29,7 @@ const SportCard = ({sportId, betAmount, showOnlyProfitable, waitTime}) => {
     // declare the data fetching function
     const fetchData = async () => {
       setLoading(true);
-      const res = await getSportOdds(sportId);
+      const res = await getSportOdds(sportId, apiKeysStatic[apiKeyIndex].key);
 
       if (res?.status === 200) {
         setData(res.data);

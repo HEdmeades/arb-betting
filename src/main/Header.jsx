@@ -16,7 +16,7 @@ function Header() {
         <Link to="/calculator">Calculator</Link>
 
         <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">Age</InputLabel>
+          <InputLabel id="demo-simple-select-label">API Key</InputLabel>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"

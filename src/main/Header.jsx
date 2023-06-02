@@ -16,6 +16,7 @@ function Header() {
         <Link to="/">Home</Link>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/calculator">Calculator</Link>
+        <Link to="/simulator">Simulator</Link>
 
         <FormControl fullWidth>
           <InputLabel id="demo-simple-select-label">API Key</InputLabel>

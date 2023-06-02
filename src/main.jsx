@@ -8,6 +8,7 @@ import Sport from "./main/Sport.jsx";
 import LandingPage from "./main/LandingPage.jsx";
 import {createTheme, ThemeProvider} from "@mui/material";
 import './App.css';
+import GameGraph from "./main/GameGraph.jsx";
 
 const lightTheme = createTheme({
   palette: {
@@ -27,6 +28,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route component={Calculator} exact path="/calculator"/>
 
           <Route component={Sport} exact path="/sport/:sportId"/>
+
+          <Route component={GameGraph} exact path="/simulator"/>
         </Switch>
       </BrowserRouter>
     </ThemeProvider>
